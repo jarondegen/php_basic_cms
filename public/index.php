@@ -1,3 +1,5 @@
+<!doctype html>
+
 <html lang="en">
   <head>
     <title>Globe Bank</title>
@@ -5,6 +7,8 @@
   </head>
 
   <body>
-    <h1>Coming soon</h1>
+
+    <h1>Globe Bank: Coming Soon</h1>
+
   </body>
 </html>
