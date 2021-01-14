@@ -7,11 +7,12 @@ function url_for($script_path) {
   }
   return WWW_ROOT . $script_path;
 }
-
+//for strings after query
 function u($string="") {
   return urlencode($string);
 }
 
+//for urlstrings b4 the query
 function raw_u($string="") {
   return rawurlencode($string);
 }
@@ -32,7 +33,7 @@ function error_500() {
 
 function redirect_to($location) {
   header("Location: " . $location);
-  exit;
+  exit();
 }
 
 ?>
